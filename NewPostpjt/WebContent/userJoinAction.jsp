@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%@ page import="user.UserDTO"%>
 <%@ page import="user.UserDAO"%>
-<%@ page import="java.io.PrintWriter" %>
+<%@ page import="java.io.PrintWriter"%>
 
 <%
 	request.setCharacterEncoding("UTF-8");//모두 한글처리 하겠다는 뜻 그러나 나는 filter를 썻기때문에 필요없다.
