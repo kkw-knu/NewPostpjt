@@ -44,6 +44,6 @@
 		<tr><th>전화번호</th><td><input type="text" name="tel" title="전화형식 3-3,3-4"required="required" pattern="\d{3}-\d{3,4}-\d{4}" placeholder="010-1111-1111"></td></tr>
 		<tr><th colspan="2"><input type="submit" value="확인"></th></tr>
 	</table>
-</form>
+</form>  
 </body>
 </html>

@@ -1,4 +1,4 @@
-package login;
+package Mem;
 import java.sql.*;
 public class Member {
 	private String id;
@@ -7,6 +7,13 @@ public class Member {
 	private String address;
 	private String tel;
 	private Date reg_date;
+	private String del;
+	public String getDel() {
+		return del;
+	}
+	public void setDel(String del) {
+		this.del = del;
+	}
 	public String getId() {
 		return id;
 	}
